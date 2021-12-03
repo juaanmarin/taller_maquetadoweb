@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.texto1{
+    display: flex;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.diseño h2{
+    color: white;
+}
+.multimendia h2{
+    color: rgb(56, 137, 230);
+}
+
+.linea1{
+    background-color: rgb(56, 137, 230);;
+    height: 5px;
+}
+nav{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h2{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(240, 73, 44);
+    border-color:  rgb(240, 73, 44);
+    height: 35px;
+    width: 100px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+
+footer{
+    height: 60px;
+    background-color: rgb(62, 178, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    display: flex;
+    gap: 20px;
+    padding: 15px 65px;
+
+}
+.izquierda p{
+    color:black;
+
+
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 840px;
+   
+    
+}
+
+.cuadro1{
+    background-color: rgba(0, 0, 0, 0.192);
+    height: 240px;
+    padding: 40px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.cuadro2{
+    background-color: rgba(0, 0, 0, 0.192);
+    height: 240px;
+    padding: 40px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cuadro3{
+    background-color: rgba(0, 0, 0, 0.192);
+    height: 240px;
+    padding: 40px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cuadro4{
+    background-color:rgb(53, 66, 74);
+    padding: 30px;
+    width: 350px;
+}
+.tituloc{
+    background-color: white;
+    margin-bottom: 20px;
+} 
+
+

@@ -1,0 +1,266 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.texto1{
+    display: flex;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.diseño h2{
+    color: white;
+}
+.multimendia h2{
+    color: rgb(56, 137, 230);
+}
+
+.linea1{
+    background-color: rgb(56, 137, 230);;
+    height: 5px;
+}
+nav{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h2{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(240, 73, 44);
+    border-color:  rgb(240, 73, 44);
+    height: 35px;
+    width: 100px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+
+footer{
+    height: 60px;
+    background-color: rgb(62, 178, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 20px 70px;
+    
+}
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-aro;
+    
+}
+
+
+.imagen{
+    background-size: cover;
+}
+.imagen img{
+    width: 1100px;
+    height: 200px;
+}
+.titulo{
+    padding: 10px 0px;
+}
+
+.texto1 p{
+    color: black;
+    width: 1100px;
+}
+.texto2{
+    background-color: rgb(53, 66, 74);
+    width: 1100px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.derecha{
+    width: 500px;
+}
+
+.texto3{
+    background-color:rgb(53, 66, 74);
+    width: 350px;
+    padding: 9px 9px;
+}
+.texto3 p{
+    font-size: 15px;
+}
+.texto1 p{
+    font-size: 15px;
+}
+.texto2 p{
+    font-size: 15px;
+}
+
+
+.titulo2{
+    padding: 10px;
+    background-color: rgb(53, 66, 74);
+    width: 350px;
+    color: white;
+}
+
+.imagen img{
+    width: 350px;
+
+}
+.cuadro0{
+    background-color:rgb(53, 66, 74);
+    width: 350px;
+    padding: 20px 10px;
+    
+}
+.cuadro0 h2{
+    color:white;
+  
+
+}
+.izquierda input{
+    width: 650px;
+    color: black;
+
+}
+.botone button{
+    width: 650px;
+    background-color: rgb(240, 73, 44);
+    color: white;
+}
+
+.fila5 input{
+    height: 150px;
+    width: 658px;
+
+}
+
+@media (max-width:1200px){
+    body{
+        width: auto;
+    }
+    .texto1{
+        width: 600px;
+    }
+    .texto2{
+        width: 600px;
+    }
+    .imagen img{
+        width: 600px;
+    }
+    .texto3{
+        width: 250px;
+    }
+    .titulo2{
+        width: 250px;
+    }
+    .contenido{
+        gap:40px;
+    }
+    .menu{
+        gap:80px;
+    }
+    header .texto1{
+        width: 300px;
+    }
+
+}
+
+@media (max-width:992px){
+    section{
+        width: auto;
+    }
+    .texto1 p{
+        font-size: 13px;
+    }
+    .texto2 p{
+        font-size: 13px;
+    }
+    .texto3 p{
+        font-size: 13px;
+    }
+    .texto1{
+        width: 550px;
+    }
+    .texto2{
+        width: 550px;
+    }
+    .texto3{
+        width: 200px;
+    }
+    .titulo2{
+        width: 200px;
+    }
+    .imagen{
+        width: 550px;
+    }
+    .imagen img{
+        width: 550px;
+    }
+}
+
+@media (max-width:768px){
+    .menu{
+        gap:30px;
+    }
+    header .texto1{
+        width: 150px;
+    }
+    .imagen{
+        width: 450px;
+    }
+    .imagen img {
+        width: 450px;
+        height: 150px;
+    }
+    .texto1{
+        width: 450px;
+    }
+    .texto2 {
+        width: 450px;
+    }
+}
+@media (max-width:576px){
+    
+}

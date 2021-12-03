@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.texto1{
+    display: flex;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.diseño h2{
+    color: white;
+}
+.multimendia h2{
+    color: rgb(56, 137, 230);
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url(/images/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+.tituloo h1{
+    color:white;
+    font-size: 50px;
+    
+}
+.textoo p{
+    width: 960px;
+    text-align: center;
+    font-size:18px;
+}
+
+.linea1{
+    background-color: rgb(56, 137, 230);;
+    height: 5px;
+}
+nav{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h2{
+    color: white;
+    font-size: 20px;
+}
+button{
+    background-color: rgb(240, 73, 44);
+    border-color:  rgb(240, 73, 44);
+    height: 35px;
+    width: 100px;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+section p{
+    color:black;
+    font-size: 15px;
+    text-align: center;
+}
+section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    width: 200px;
+}
+.html{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.css3{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pantalla{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    height: 60px;
+    background-color: rgb(62, 178, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1000px) {
+    
+}
+
+@media (max-width:800px){
+   body{
+    width: auto;
+   }
+   .imagen{
+       height: 300px;
+   }
+
+   img{
+       width: 150px;
+   }
+   .textoo p{
+       width: 800px;
+   }
+   .menu{
+       gap:50px;
+   }
+   section{
+       height: 400px;
+   }
+   header{
+       height: 80px;
+   }
+   nav{
+       height: 80px;
+   }
+}
+@media (max-width:600px){
+    body{
+        width: auto;
+    }
+    .tituloo h1{
+        font-size: 40px;
+    }
+    .textoo p{
+        width: 390px;
+        font-size: 15px;
+    }
+    img{
+        width: 100px;
+    }
+    section h2{
+        font-size: 20px;
+    }
+    section p{
+        font-size: 12px;
+    }
+    nav h2{
+        font-size: 15px;
+    }
+    button{
+        height: 25px;
+    }
+    input{
+        height: 20px;
+    }
+    .menu{
+        gap:30px;
+    }
+    .texto1 h2{
+        font-size: 20px;
+    }
+}
+
+
