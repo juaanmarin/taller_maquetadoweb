@@ -25,6 +25,9 @@ header{
     flex-direction: row;
     gap: 100px;
 }
+.menu2{
+    display: none;
+}
 p{
     color: white;
     font-size: 20px;
@@ -129,11 +132,11 @@ footer{
     align-items: center;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
     
 }
 
-@media (max-width:800px){
+@media (max-width:768px){
    body{
     width: auto;
    }
@@ -160,7 +163,7 @@ footer{
        height: 80px;
    }
 }
-@media (max-width:600px){
+@media (max-width:576px){
     body{
         width: auto;
     }
@@ -171,14 +174,37 @@ footer{
         width: 390px;
         font-size: 15px;
     }
+    .menu{
+        display: none;
+    }
+    .menu2{
+        display:block;
+    }
+    .imagen{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: url(/images/cabecera.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+    
+    }
     img{
         width: 100px;
     }
+    section{
+        flex-direction: column;
+        height:700px;
+    }
     section h2{
-        font-size: 20px;
+        font-size: 25px;
     }
     section p{
-        font-size: 12px;
+        font-size: 15px;
+        width: 350px;
     }
     nav h2{
         font-size: 15px;
@@ -188,9 +214,6 @@ footer{
     }
     input{
         height: 20px;
-    }
-    .menu{
-        gap:30px;
     }
     .texto1 h2{
         font-size: 20px;
