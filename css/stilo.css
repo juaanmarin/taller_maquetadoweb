@@ -151,14 +151,17 @@ footer{
        width: 800px;
    }
    .menu{
-       gap:50px;
-   }
-   section{
-       height: 400px;
+       gap:35px;
    }
    header{
        height: 80px;
    }
+   .diseño h2{
+        font-size: 19px;
+    }
+    .multimendia h2{
+        font-size: 19px;
+    }
    nav{
        height: 80px;
    }

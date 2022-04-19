@@ -21,6 +21,9 @@ header{
     flex-direction: row;
     gap: 100px;
 }
+.menu2{
+    display: none;
+}
 p{
     color: white;
     font-size: 20px;
@@ -71,20 +74,11 @@ footer{
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
 .contenido{
     display: flex;
     justify-content: space-between;
     gap: 100px;
     padding: 20px 70px;
-    
 }
 .izquierda{
     display: flex;
@@ -93,7 +87,6 @@ footer{
     justify-content: space-aro;
     
 }
-
 
 .imagen{
     background-size: cover;
@@ -262,5 +255,39 @@ footer{
     }
 }
 @media (max-width:576px){
+    .menu{
+        display: none;
+    }
+    .menu2{
+        display: block;
+    }
+    .contenido{
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario input{
+        width: 230px;
+    }
+    .derecha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px ;
+    }
+    .botone button{
+        width: 230px;
+    }
+    .cuadro0{
+        width: 300px;
+    }
+    .imagen{
+        width: 300px;
+    }
+    .imagen img {
+        width: 300px;
+    }
     
 }
