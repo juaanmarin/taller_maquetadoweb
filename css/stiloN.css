@@ -12,9 +12,9 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.texto1{
+.titulodoble{
     display: flex;
-    
+    width: 50px;
 }
 .menu{
     display: flex;
@@ -89,10 +89,11 @@ footer{
 }
 
 .imagen{
-    background-size: cover;
+    width: 800px;
+    height: 200px;
 }
 .imagen img{
-    width: 1100px;
+    width: 800px;
     height: 200px;
 }
 .titulo{
@@ -103,17 +104,20 @@ footer{
     color: black;
     width: 1100px;
 }
+.texto1{
+    width: 800px;
+    padding: 10px;
+    font-size: 15px;
+}
 .texto2{
     background-color: rgb(53, 66, 74);
-    width: 1100px;
+    width: 800px;
     padding: 20px;
     font-size: 15px;
 }
-
 .derecha{
     width: 500px;
 }
-
 .texto3{
     background-color:rgb(53, 66, 74);
     width: 350px;
@@ -123,20 +127,18 @@ footer{
     font-size: 15px;
 }
 .texto1 p{
+    width: 800px;
     font-size: 15px;
 }
 .texto2 p{
     font-size: 15px;
 }
-
-
 .titulo2{
     padding: 10px;
     background-color: rgb(53, 66, 74);
     width: 350px;
     color: white;
 }
-
 .imagen img{
     width: 350px;
 
@@ -176,7 +178,13 @@ footer{
     .texto1{
         width: 600px;
     }
+    .texto1 p{
+        width: 600px;
+    }
     .texto2{
+        width: 600px;
+    }
+    .imagen{
         width: 600px;
     }
     .imagen img{
@@ -205,6 +213,7 @@ footer{
         width: auto;
     }
     .texto1 p{
+        width: 440px;
         font-size: 13px;
     }
     .texto2 p{
@@ -255,6 +264,14 @@ footer{
     }
 }
 @media (max-width:576px){
+    header {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .menu{
         display: none;
     }
